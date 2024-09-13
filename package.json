@@ -5,7 +5,8 @@
   "scripts": {
     "jslint": "eslint ./**/*.js --rulesdir ./node_modules/@sap/di.code-validation.js/src/defaultConfig/fioriCustomRules/.eslintrules --rulesdir ./.eslintrules",
     "xmllint": "node ./xmllint.js",
-    "jscpd": "jscpd . --config .jscpd.json"
+    "jscpd": "jscpd . --config .jscpd.json",
+    "start": "ui5 serve --port 8080 -o index.html"
   },
   "repository": {
     "type": "git",
